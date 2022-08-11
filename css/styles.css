@@ -1,0 +1,86 @@
+p{
+ color: red;   
+ font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+* {
+    color: red;
+  }
+
+.li{
+    list-style: none;
+    color: green;
+}
+
+
+li {
+    list-style: none;
+    color: green;
+  }
+
+rule {
+    list-style: upper-roman;
+    color: navy;
+}
+
+
+.common-rule {
+    list-style: upper-roman;
+    font-size: 20px;
+  }
+  .first-rule {
+color: red;
+  } 
+  .last-rule {
+color: green;
+  }
+
+
+  .btn, .active {
+    border: none;
+    padding: 0.25rem 1.25rem;
+  }
+  
+  .link, .active {
+    text-decoration: none;
+    color: navy;
+  }
+  /* Напиши свій код під цим рядком */
+  .btn, .active {
+    color: red;
+  }
+  
+  .link, .active {
+    font-weight: 700;
+  }
+
+  
+  ПРИКЛАД:
+<h1 class="title headline">Заголовок 1</h1>
+<h2 class="headline">Заголовок 2</h2>
+<h2 class="title">Заголовок 3</h2>
+.title.headline {
+  font-family: cursive;
+}
+.title {
+  font-family: serif;
+}
+.headline {
+  font-family: sans-serif;
+}
+Заголовок 1
+Заголовок 2
+Заголовок 3
+
+В CSS додай клас active до селекторів button і link таким чином, щоб
+
+правило color: red застосувалось тільки до елемента button, який містить одночасно клас btn та active;
+правило font-weight: 700 застосувалось тільки до елемента a, який містить одночасно клас link та active.
